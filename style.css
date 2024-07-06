@@ -351,4 +351,93 @@ hr{
         display: block;
         cursor: pointer;
     }
+    .home{
+        padding-top: 8rem;
+    }
+
+    /*  About */
+
+    .about-main{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .photo img{
+        width: 180px;
+        margin-bottom: 2rem;
+    }
+    .about-info{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+    .about-btn{
+        text-align: center;
+    }
+
+    /* Skills */
+    .skills-icons{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .skill-box p{
+        font-size: 12px;
+    }
+    /* .fa-brands{
+        font-size: 10px;
+        margin-bottom: 0.3rem;
+    } */
+
+    /* Projects */
+
+    .img-box img{
+        width: 200px;
+    }
+    .desc-box{
+        width: 50%;
+    }
+    .desc-box h4{
+        font-size: 14px;
+    }
+    .p1{
+        font-size: 12px;
+    }
+    .box{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box button{
+        margin-bottom: 2px;
+        width: 110px;
+    }
+
+    /* contact-box */
+
+    .contact-box{
+        display: block;
+    }
+    .contact-box{
+        width: 70%;
+        padding: 1rem;
+    }
+    .contact-box p{
+        line-height: 1rem;
+        font-size: 10px;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .contact-input-box{
+        padding: 0 1rem;
+    }
+    .contact-input-box button{
+        margin-left: 35%;
+    }
+    footer{
+        padding: 0.5rem 0;
+    }
 }
